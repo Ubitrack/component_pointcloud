@@ -2,7 +2,7 @@ from conans import ConanFile, CMake, tools
 
 
 class UbitrackCoreConan(ConanFile):
-    name = "ubitrack_components_pointcloud"
+    name = "ubitrack_component_pointcloud"
     version = "1.3.0"
 
     description = "Ubitrack Point Cloud Components"
