@@ -2,11 +2,11 @@ from conans import ConanFile, CMake, tools
 
 
 class UbitrackCoreConan(ConanFile):
-    name = "ubitrack_pcl_components"
+    name = "ubitrack_components_pointcloud"
     version = "1.3.0"
 
-    description = "Ubitrack PCL Components"
-    url = ""
+    description = "Ubitrack Point Cloud Components"
+    url = "https://github.com/Ubitrack/component_pointcloud.git"
     license = "LGPL"
 
     short_paths = True
