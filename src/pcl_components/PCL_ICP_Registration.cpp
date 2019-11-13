@@ -70,6 +70,7 @@ namespace Ubitrack { namespace Drivers {
                         pConfig->m_DataflowAttributes.getAttributeData( "maximumIterations", m_maximumIterations );
                         pConfig->m_DataflowAttributes.getAttributeData( "transformationEpsilon", m_transformationEpsilon );
                         pConfig->m_DataflowAttributes.getAttributeData( "euclideanFitnessEpsilon", m_euclideanFitnessEpsilon );
+
             }
 
             /** Method that computes the result. */
